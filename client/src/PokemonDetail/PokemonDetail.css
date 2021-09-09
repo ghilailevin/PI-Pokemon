@@ -1,0 +1,62 @@
+.poke_Detail {
+    background-image: url(../img/pokemon.jpg);
+    background-size: cover;
+  }
+  
+  .detalles {
+    width: 25rem;
+    background-color: rgb(145, 16, 16);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .poke_Id {
+    font-weight: bold;
+    text-align: center;
+  }
+  .poke_Id_nro {
+    margin-left: 5px;
+  }
+  .poke_nombre {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+  .poke_img {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 25px #222 inset;
+    border-radius: 3rem;
+    background: linear-gradient(to right, pink, purple);
+  }
+  .poke_img:hover {
+    transition: 0.4s ease;
+    transform: scale(1.03);
+  }
+  .poke_estadisticas {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .poke_estadisticas p {
+    letter-spacing: 1px;
+  }
+  .tipos {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+  }

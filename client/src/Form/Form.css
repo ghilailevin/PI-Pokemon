@@ -1,0 +1,47 @@
+.container_form {
+    background-image: url(../img/pokemon3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .form_Title {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(219, 202, 202);
+    -webkit-text-stroke: 2px black;
+  }
+  
+  .formulario {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(194, 206, 194);
+    opacity: 0.8;
+    padding: 50px;
+    border-radius: 2rem;
+    font-weight: bolder;
+  }
+  .formulario input {
+    margin-top: 10px;
+  }
+  .formulario label {
+    margin-right: 15px;
+    display: inline-block;
+    width: 4rem;
+  }
+  
+  #btn_crear {
+    margin-top: 2rem;
+    width: 4rem;
+    height: 2rem;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  #btn_crear:hover {
+    color: black;
+  }
+  .tipos_titulo {
+    margin-top: 1rem;
+  }

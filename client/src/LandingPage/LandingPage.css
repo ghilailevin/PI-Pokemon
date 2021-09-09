@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.landingPage {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.entrar {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  border-radius: 2rem;
+  font-weight: bold;
+
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.entrar:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
